@@ -1,5 +1,52 @@
-h2{
-    color:blueviolet;
-    font-style: italic;
-    text-align: center;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.container{
+
+      width: 80%;
+      margin: 0px auto;
+      margin-top: 10px;
+
+}
+
+/* Header css style start */
+.header{
+    background-color: #050009;
+    text-align:right;
+    color:white;
+    padding: 10px;  
+    margin-bottom: 50px;
+}
+
+ul,li{
+    list-style-type: none;
+    display:inline-block;
+    margin:5px;
+}
+
+/* Header css style end */
+
+/* About Section css style start */
+h1{
+    margin-bottom: 5px;
+}
+.section1{
+   
+    margin-top: 20px;
+}
+.para{
+    text-align: justify;
+}
+
+.line{
+   border: 2px solid red;
+   width: 100px;
+   margin-bottom: 10px;
+}
+
+
